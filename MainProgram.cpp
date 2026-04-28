@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <string>
-
+#include <cmath>
 // ============================================================
 // CLASS DEFINITIONS
 // ============================================================
@@ -67,7 +67,7 @@ public:
 
 // TODO 12: implement isSameSize
 bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
-    return (r1.getArea() == r2.getArea());  // stub
+    return false;  // stub
 }
 
 
